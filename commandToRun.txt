@@ -1,0 +1,11 @@
+This is the command to Run the image
+
+Run  --> Use for run the container
+--name --> used to give the customized name of your container
+-v  --> Use for  attach local volume to container,( whatever you change on your local directory it will reflect on your container Or change in container files it will change in local file also)
+:ro --> it will make your local volume read only(cann't change in local files)
+-p --> It will connect container port where it listion requests(Here 8080 machine's port and 80 container's port) or machine's port
+
+
+
+sudo docker run --name nginxserver -v /home/jitu/Desktop/Lco/HtmlcssbyHitesh/serveOnDocker/:/usr/share/nginx/html:ro -d -p 8080:80 nginx
