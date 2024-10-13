@@ -1,5 +1,7 @@
 This is the command to Run the image
 
+
+
 Run  --> Use for run the container
 --name --> used to give the customized name of your container
 -v  --> Use for  attach local volume to container,( whatever you change on your local directory it will reflect on your container Or change in container files it will change in local file also)
